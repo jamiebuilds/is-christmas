@@ -1,0 +1,38 @@
+{
+  "name": "is-christmas",
+  "version": "0.0.0",
+  "description": "Is today Christmas?",
+  "license": "MIT",
+  "repository": "thejameskyle/is-christmas",
+  "author": {
+    "name": "James Kyle",
+    "email": "me@thejameskyle.com",
+    "url": "github.com/thejameskyle"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "christmas"
+  ],
+  "dependencies": {
+    "meow": "^3.4.2"
+  },
+  "devDependencies": {
+    "ava": "^0.3.0",
+    "xo": "^0.10.0"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
